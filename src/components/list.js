@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import weapon from '../data/weapon.json'
 import ListItem from './ListItem'
+import Form from './Form'
 
 class List extends Component{
     constructor(){
@@ -35,9 +36,10 @@ class List extends Component{
             return <ListItem key={weapon.id} weapon={weapon} deleteWeapon={this.deleteWeapon}/>
         })
         return(
-            <div>
+            <div className='list'>
                 
                 <h1>main weapon list</h1>
+                <Form addWeapon={this.add}/>
                {weaponMap}
             </div>
 
