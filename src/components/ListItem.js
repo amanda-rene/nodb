@@ -12,7 +12,7 @@ function ListItem({weapon, deleteWeapon}){
         src= {weapon.imgUrl} />
         <div className = 'weapon.info'>
             <p>{weapon.weaponName}</p>
-            <p>{weapon.weaopnType}</p>
+            <p>{weapon.weaponType}</p>
         </div>
         <p className='delete-button' onClick={() => deleteWeapon(weapon.id)}>
             X

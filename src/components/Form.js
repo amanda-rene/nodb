@@ -18,8 +18,9 @@ class Form extends Component{
     }
 
     handleAdd(e){
+        const {weaponName, weaponType, imgUrl} = this.state
         e.preventDefault()
-        this.props.addWeapon(this.state.weaponName, this.state.weaponType, this.state.imgUrl)
+        this.props.addWeapon(weaponName, weaponType, imgUrl)
         this.setState({
             weaponName: '',
             weaponType: '',
@@ -31,7 +32,7 @@ class Form extends Component{
         return(
             <form onSubmit={e => this.handleAdd(e)} classname='Form'>
                 <input value={this.state.weaponName} onChange={e => this.handleChange(e)} name='weaponName' placeholder='Weapon Name' />
-                <input calue={this.state.weaponType} onChange={e => this.handleChange(e)} name='weaponType' placeholder='Weapon Type'/>
+                <input value={this.state.weaponType} onChange={e => this.handleChange(e)} name='weaponType' placeholder='Weapon Type'/>
                 <input value={this.state.imgUrl} onChange={e => this.handleChange(e)} name= "imgUrl" placeholder='Image Url'/>
                 <button type='submit'>Add Weapon</button>
             </form>
