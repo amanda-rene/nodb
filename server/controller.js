@@ -30,7 +30,7 @@ module.exports = {
     updateCart: (req, res) => {
         const {weaponName, weaponType, imgUrl} = req.body;
         const {id} = req.params;
-        let [index] = weapon.findIndex(weapon => weapon.id === +req.params.id)
+        let index = weapon.findIndex(weapon => weapon.id === +req.params.id)
         weapon[index] = {
             id: weapon[index].id,
             weaponName: weaponName || weapon[index].weaponName,
