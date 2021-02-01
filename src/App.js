@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import './App.css';
-import Header from './components/header'
+import Header from './components/Header'
+import List from './components/List'
 
 class App extends Component{
 
@@ -15,6 +16,8 @@ class App extends Component{
     return(
     <div className='app'>
       <Header />
+      <List />
+
     </div>)
   }
 }
