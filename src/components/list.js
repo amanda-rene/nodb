@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import weapon from '../data/weapon.json'
-
+import ListItem from './ListItem'
 
 class List extends Component{
     constructor(){
@@ -31,11 +31,14 @@ class List extends Component{
     }
 
     render(){
+        const weaponMap = this.state.weapon.map(weapon => {
+            return <ListItem key={weapon.id} weapon={weapon} deleteWeapon={this.deleteWeapon}/>
+        })
         return(
             <div>
                 
                 <h1>main weapon list</h1>
-               
+               {weaponMap}
             </div>
 
         )
