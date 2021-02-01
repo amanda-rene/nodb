@@ -12,7 +12,31 @@ let weapon = [
         "weaponName": "Bullet King",
         "weaponType": "LMG",
         "imgUrl": ""
-    }
+    },
+    {
+        "id": 2,
+        "weaponName": "Liberty",
+        "weaponType": "Pistol",
+        "imgUrl": ""
+    },
+    {
+        "id": 3,
+        "weaponName": "Bighorn",
+        "weaponType": "Assault Rifle",
+        "imgUrl": ""
+    },
+    {
+        "id": 4,
+        "weaponName": "Chatterbox",
+        "weaponType": "SMG",
+        "imgUrl": ""
+    },
+    {
+        "id":5,
+        "weaponName": "Lullabye",
+        "weaponType": "Shotgun",
+        "imgUrl": ""
+    },
 ]
 
 

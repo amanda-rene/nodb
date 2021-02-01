@@ -1,0 +1,38 @@
+ [
+    {
+        "id": 0,
+        "weaponName": "Eagle Bearer",
+        "weaponType": "Assault Rifle",
+        "imgUrl": ""
+    },
+    {
+        "id": 1,
+        "weaponName": "Bullet King",
+        "weaponType": "LMG",
+        "imgUrl": ""
+    },
+    {
+        "id": 2,
+        "weaponName": "Liberty",
+        "weaponType": "Pistol",
+        "imgUrl": ""
+    },
+    {
+        "id": 3,
+        "weaponName": "Bighorn",
+        "weaponType": "Assault Rifle",
+        "imgUrl": ""
+    },
+    {
+        "id": 4,
+        "weaponName": "Chatterbox",
+        "weaponType": "SMG",
+        "imgUrl": ""
+    },
+    {
+        "id":5,
+        "weaponName": "Sweet Dreams",
+        "weaponType": "Shotgun",
+        "imgUrl": ""
+    }
+]
