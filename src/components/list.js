@@ -23,7 +23,7 @@ class List extends Component{
     }
 
     deleteWeapon(id){
-        const index = this.state.movies.findIndex(weapon => weapon.id === id)
+        const index = this.state.weapon.findIndex(weapon => weapon.id === id)
         const newArr = [...this.state.weapon]
         newArr.splice(index, 1)
         this.setState({
@@ -39,7 +39,7 @@ class List extends Component{
             <div className='list'>
                 
                 <h1>main weapon list</h1>
-                <Form addWeapon={this.add}/>
+                <Form addWeapon={this.addWeapon}/>
                {weaponMap}
             </div>
 

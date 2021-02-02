@@ -1,10 +1,7 @@
 import React from 'react'
 
 function ListItem({weapon, deleteWeapon}){
-    // destructured in the paramater, just need {} to make it js
-
-    // const {movie} = props;
-    // deconstructed props to save code
+  
     return <div className= 'List-Item'>
         <img 
         alt={weapon.weaponName} 
@@ -15,7 +12,7 @@ function ListItem({weapon, deleteWeapon}){
             <p>{weapon.weaponType}</p>
         </div>
         <p className='delete-button' onClick={() => deleteWeapon(weapon.id)}>
-            X
+            Delete
             </p>
     </div>
 }
