@@ -3,9 +3,7 @@ import React from 'react'
 
 function Header(){
     return(
-        <div className='header'>Div2 Exotic Loadout Builder</div>
-        
-        
+        <div className='header'>TCTD2 Exotic Loadout Builder</div>
     )
 }
 
