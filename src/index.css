@@ -1,12 +1,16 @@
+/* @font-face{
+  font-family: ghostClan;
+  src: url("https://www.dafont.com/ghost-clan.font")
+} */
+
 body {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: ghostClan;
   color: white;
   background-size:contain ;
   background-color: rgba(255, 94, 0, 0.685);
   background-image:url("https://cdn.division.zone/images/wallpaper/the-division-wallpaper-1-1024x768.jpg"); 
   background-repeat: unset;
   background-blend-mode: luminosity;
-  
 }
 
 
@@ -16,17 +20,18 @@ body {
   text-align: center;
   font-size: 50px;
   color: white;
-  text-shadow: rgb(161, 48, 48);
+  text-shadow: 2px 2px 5px red;
   position: fixed;
   opacity: 70%;
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfgXgT3dhcmgyeB7xJxTfWyphkCOhVwCRgMA&usqp=CAU");
+  box-shadow: 5px 5px 10px grey;
 }
 
 
 .form{
   position: absolute;
   padding: 15px 0 0;
-  margin-bottom: 1200px;
+  margin-bottom: 1300px;
   margin-left: 1200px;
   width: 10%;
 }
@@ -38,7 +43,6 @@ body {
   border-bottom: 2px solid rgb(17, 17, 17);
   outline: 0;
   font-size: 1.3rem;
-  /* color: white; */
   padding: 7px 0;
   background: transparent;
   transition: border-color 0.2s;
@@ -49,6 +53,13 @@ body {
   margin: 10px;
   border:2px solid black;
   background: transparent;
+  transition-duration: 0.4s;
+}
+
+.button:hover{
+  background-color: #4CAF50; 
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .list{
@@ -57,6 +68,8 @@ body {
   flex-wrap: wrap;
   align-items: center;
   padding-top: 200px;
+  text-shadow: 2px 2px 5px red;
+  
   
 }
 
@@ -65,10 +78,19 @@ body {
   margin: 50px;
   opacity: 90%;
   border-radius: 15%;
+  border: #edecbb solid 2px;
+  box-shadow: 5px 5px 10px grey;
 }
 
 .delete-button{
   border:2px solid white;
   background: transparent;
   color: white;
+  transition-duration: 0.4s;
+}
+
+.delete-button:hover{
+  background-color: #4CAF50; 
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(230, 224, 224, 0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }

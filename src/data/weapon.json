@@ -1,39 +1,45 @@
  [
     {
         "id": 0,
-        "weaponName": "Eagle Bearer",
-        "weaponType": "Assault Rifle",
-        "imgUrl": "https://mail.google.com/mail/u/0?ui=2&ik=c42c2674dc&attid=0.1&permmsgid=msg-a:r-7513229628190514911&th=1775f545cd20697c&view=att&disp=safe&realattid=1775f543dc0eb77460a1"
+        "weaponName": "NAME: Eagle Bearer",
+        "weaponType": "TYPE: Assault Rifle",
+        "imgUrl": "https://mail.google.com/mail/u/0?ui=2&ik=c42c2674dc&attid=0.1&permmsgid=msg-a:r-7513229628190514911&th=1775f545cd20697c&view=att&disp=safe&realattid=1775f543dc0eb77460a1",
+        "description": "ABOUT: Dark Horse Raid exclusive. Took about 50 hours and bad RNG to obtain."
     },
     {
         "id": 1,
-        "weaponName": "Bullet King",
-        "weaponType": "LMG",
-        "imgUrl": "https://mail.google.com/mail/u/0?ui=2&ik=c42c2674dc&attid=0.1&permmsgid=msg-a:r2640133497271461228&th=1775f53d9ec80e19&view=att&disp=safe&realattid=1775f53c15aaebd97ef1"
+        "weaponName": "NAME: Bullet King",
+        "weaponType": "TYPE: LMG",
+        "imgUrl": "https://mail.google.com/mail/u/0?ui=2&ik=c42c2674dc&attid=0.1&permmsgid=msg-a:r2640133497271461228&th=1775f53d9ec80e19&view=att&disp=safe&realattid=1775f53c15aaebd97ef1",
+        "description":"ABOUT: Warlords of NY exclusive. Crazy final boss fight, the name is a reference to Div1."
     },
  
     {
         "id": 3,
-        "weaponName": "Bighorn",
-        "weaponType": "Assault Rifle",
-        "imgUrl": "https://mail.google.com/mail/u/0?ui=2&ik=c42c2674dc&attid=0.1&permmsgid=msg-a:r-2345583670816716866&th=1775f5493da1cd98&view=att&disp=safe&realattid=1775f547cf4eade4c851"
+        "weaponName": "NAME: Bighorn",
+        "weaponType": "TYPE: Assault Rifle",
+        "imgUrl": "https://mail.google.com/mail/u/0?ui=2&ik=c42c2674dc&attid=0.1&permmsgid=msg-a:r-2345583670816716866&th=1775f5493da1cd98&view=att&disp=safe&realattid=1775f547cf4eade4c851",
+        "description":"ABOUT: Legendary mission exclusive, let's not talk about how long I had to grind for this one."
     },
     {
         "id": 4,
-        "weaponName": "Chatterbox",
-        "weaponType": "SMG",
-        "imgUrl": "https://mail.google.com/mail/u/0?ui=2&ik=c42c2674dc&attid=0.1&permmsgid=msg-a:r3403904972553127048&th=1775f54190bf5e24&view=att&disp=safe&realattid=1775f53fef8f61801f71"
+        "weaponName": "NAME: Chatterbox",
+        "weaponType": "TYPE: SMG",
+        "imgUrl": "https://mail.google.com/mail/u/0?ui=2&ik=c42c2674dc&attid=0.1&permmsgid=msg-a:r3403904972553127048&th=1775f54190bf5e24&view=att&disp=safe&realattid=1775f53fef8f61801f71",
+        "description": "ABOUT: Had to obtain keys on a time block to unlock individual parts to craft. Bummer."
     },
     {
         "id":5,
-        "weaponName": "Sweet Dreams",
-        "weaponType": "Shotgun",
-        "imgUrl": "https://mail.google.com/mail/u/0?ui=2&ik=c42c2674dc&attid=0.1&permmsgid=msg-a:r8740315951870046888&th=1775f53907d07729&view=att&disp=safe&realattid=1775f5373bc886f97bb1"
+        "weaponName": "NAME: Sweet Dreams",
+        "weaponType": "TYPE: Shotgun",
+        "imgUrl": "https://mail.google.com/mail/u/0?ui=2&ik=c42c2674dc&attid=0.1&permmsgid=msg-a:r8740315951870046888&th=1775f53907d07729&view=att&disp=safe&realattid=1775f5373bc886f97bb1",
+        "description": "ABOUT: This one was free with preorder, and is definitely still an OP shotgun."
     },
     {
         "id": 6,
-        "weaponName": "Diamondback",
-        "weaponType": "Rifle",
-        "imgUrl": "https://mail.google.com/mail/u/0?ui=2&ik=c42c2674dc&attid=0.1&permmsgid=msg-a:r376964507735065543&th=1775f517ba22e049&view=att&disp=safe&realattid=1775f515e726c6fcddf1"
+        "weaponName": "NAME: Diamondback",
+        "weaponType": "TYPE: Rifle",
+        "imgUrl": "https://mail.google.com/mail/u/0?ui=2&ik=c42c2674dc&attid=0.1&permmsgid=msg-a:r376964507735065543&th=1775f517ba22e049&view=att&disp=safe&realattid=1775f515e726c6fcddf1",
+        "description": "ABOUT: Pretty sure I got lucky and got this one from an exotic crate! Sometimes RNG is awesome!"
     }
 ]

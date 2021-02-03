@@ -34,6 +34,7 @@ class Form extends Component{
                 <input className="form-field" value={this.state.weaponName} onChange={e => this.handleChange(e)} name='weaponName' placeholder='Weapon Name' />
                 <input className="form-field" value={this.state.weaponType} onChange={e => this.handleChange(e)} name='weaponType' placeholder='Weapon Type'/>
                 <input className="form-field" value={this.state.imgUrl} onChange={e => this.handleChange(e)} name= "imgUrl" placeholder='Image Url'/>
+                
                 <button className="button" type='submit'>Add Weapon</button>
             </form>
 
