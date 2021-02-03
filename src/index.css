@@ -1,5 +1,5 @@
 body {
-  font-family: ;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: white;
   background-size:contain ;
   background-color: rgba(255, 94, 0, 0.685);
@@ -24,10 +24,11 @@ body {
 
 
 .form{
-  position: relative;
+  position: absolute;
   padding: 15px 0 0;
-  margin-top: 10px;
-  width: 30%;
+  margin-bottom: 1200px;
+  margin-left: 1200px;
+  width: 10%;
 }
 
 .form-field {
@@ -37,7 +38,7 @@ body {
   border-bottom: 2px solid rgb(17, 17, 17);
   outline: 0;
   font-size: 1.3rem;
-  color: white;
+  /* color: white; */
   padding: 7px 0;
   background: transparent;
   transition: border-color 0.2s;
@@ -52,24 +53,17 @@ body {
 
 .list{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   text-shadow: rgba(rgb(26, 1, 1), rgb(2, 32, 2), rgb(36, 36, 39), alpha);
-  padding-top: 10px;
+  padding-top: 200px;
+  
 }
 
 .img{
   width: 500px;
   margin: 50px;
   opacity: 90%;
-  flex-direction: row;
-  justify-content: space-evenly;
 }
 
-.side1{
-  width: 50px;
-  height: 100vh;
-  justify-content: flex-start;
-  background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfgXgT3dhcmgyeB7xJxTfWyphkCOhVwCRgMA&usqp=CAU"); 
-}

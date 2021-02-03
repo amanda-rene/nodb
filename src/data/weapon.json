@@ -11,12 +11,7 @@
         "weaponType": "LMG",
         "imgUrl": "https://mail.google.com/mail/u/0?ui=2&ik=c42c2674dc&attid=0.1&permmsgid=msg-a:r2640133497271461228&th=1775f53d9ec80e19&view=att&disp=safe&realattid=1775f53c15aaebd97ef1"
     },
-    {
-        "id": 2,
-        "weaponName": "Liberty",
-        "weaponType": "Pistol",
-        "imgUrl": ""
-    },
+ 
     {
         "id": 3,
         "weaponName": "Bighorn",
