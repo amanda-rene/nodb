@@ -38,9 +38,11 @@ class List extends Component{
         return(
             <div className='list'>
                 
-                <h1>main weapon list</h1>
+                <h1>Build Your Loadout!!</h1>
                 <Form addWeapon={this.addWeapon}/>
+                
                {weaponMap}
+               
             </div>
 
         )

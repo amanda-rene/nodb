@@ -14,6 +14,8 @@ function ListItem({weapon, deleteWeapon}){
         <p className='delete-button' onClick={() => deleteWeapon(weapon.id)}>
             Delete
             </p>
+            {/* <div className="side1"></div>
+        <div className="side2"></div> */}
     </div>
 }
 

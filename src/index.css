@@ -1,30 +1,53 @@
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: ;
   color: white;
   background-size:contain ;
   background-color: rgba(255, 94, 0, 0.685);
+  background-image:url("https://cdn.division.zone/images/wallpaper/the-division-wallpaper-1-1024x768.jpg"); 
+  background-repeat: unset;
+  background-blend-mode: luminosity;
+  
 }
 
-code {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
 
 .header{
-  width: 100%;
+  width: 380px;
   height: 180px;
   text-align: center;
   font-size: 50px;
-  justify-content: center;
-  align-items: center;
-  color: gray;
+  color: white;
   text-shadow: rgb(161, 48, 48);
+  position: fixed;
+  opacity: 70%;
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfgXgT3dhcmgyeB7xJxTfWyphkCOhVwCRgMA&usqp=CAU");
 }
 
-.form {
-  flex: auto;
-  align-items: center;
-  justify-content: center;
+
+.form{
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 30%;
+}
+
+.form-field {
+  font-family: inherit;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid rgb(17, 17, 17);
+  outline: 0;
+  font-size: 1.3rem;
+  color: white;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+
+
+.button{
+  margin: 10px;
+  border:2px solid black;
+  background: transparent;
 }
 
 .list{
@@ -32,9 +55,21 @@ code {
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
+  text-shadow: rgba(rgb(26, 1, 1), rgb(2, 32, 2), rgb(36, 36, 39), alpha);
+  padding-top: 10px;
 }
 
 .img{
   width: 500px;
   margin: 50px;
+  opacity: 90%;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.side1{
+  width: 50px;
+  height: 100vh;
+  justify-content: flex-start;
+  background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfgXgT3dhcmgyeB7xJxTfWyphkCOhVwCRgMA&usqp=CAU"); 
 }

@@ -30,11 +30,11 @@ class Form extends Component{
 
     render(){
         return(
-            <form onSubmit={e => this.handleAdd(e)} classname='Form'>
-                <input value={this.state.weaponName} onChange={e => this.handleChange(e)} name='weaponName' placeholder='Weapon Name' />
-                <input value={this.state.weaponType} onChange={e => this.handleChange(e)} name='weaponType' placeholder='Weapon Type'/>
-                <input value={this.state.imgUrl} onChange={e => this.handleChange(e)} name= "imgUrl" placeholder='Image Url'/>
-                <button type='submit'>Add Weapon</button>
+            <form onSubmit={e => this.handleAdd(e)} className="form">
+                <input className="form-field" value={this.state.weaponName} onChange={e => this.handleChange(e)} name='weaponName' placeholder='Weapon Name' />
+                <input className="form-field" value={this.state.weaponType} onChange={e => this.handleChange(e)} name='weaponType' placeholder='Weapon Type'/>
+                <input className="form-field" value={this.state.imgUrl} onChange={e => this.handleChange(e)} name= "imgUrl" placeholder='Image Url'/>
+                <button className="button" type='submit'>Add Weapon</button>
             </form>
 
         )
